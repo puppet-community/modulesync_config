@@ -28,10 +28,10 @@
 - puppet-bolt
 - puppet-borg
 - puppet-boundary
+- puppet-ca_cert
 - puppet-caddy
 - puppet-cassandra
 - puppet-catalog-diff
-- puppet-ca_cert
 - puppet-check_mk
 - puppet-chrony
 - puppet-clevis
@@ -66,8 +66,8 @@
 - puppet-firewalld
 - puppet-format
 - puppet-gerrit
-- puppet-gitlab
 - puppet-github_actions_runner
+- puppet-gitlab
 - puppet-gitlab_ci_runner
 - puppet-gluster
 - puppet-googleauthenticator
@@ -82,6 +82,10 @@
 - puppet-homeassistant
 - puppet-hosts
 - puppet-hyperglass
+- puppet-icinga
+- puppet-icinga2
+- puppet-icingadb
+- puppet-icingaweb2
 - puppet-ipset
 - puppet-jail
 - puppet-jenkins
@@ -186,9 +190,5 @@
 - puppet-zabbix
 - puppet-zram_generator
 - puppet-zypprepo
-- puppet-icinga
-- puppet-icinga2
-- puppet-icingadb
-- puppet-icingaweb2
 ...
 # vim: syntax=yaml
